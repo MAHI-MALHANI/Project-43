@@ -8,10 +8,10 @@ class System{
         text(code,300,300)
         //add code to return true if correct answer entered.
 
-        if(actualCode===enteredCode){
+        if(actualCode===enteredCode.toUpperCase()){
                 return true; 
-            
             } 
+            
 
         }
     }
